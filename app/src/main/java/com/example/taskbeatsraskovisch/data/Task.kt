@@ -1,4 +1,4 @@
-package com.example.taskbeatsraskovisch
+package com.example.taskbeatsraskovisch.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

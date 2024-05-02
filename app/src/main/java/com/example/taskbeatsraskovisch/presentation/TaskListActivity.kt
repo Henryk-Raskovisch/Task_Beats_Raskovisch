@@ -1,4 +1,4 @@
-package com.example.taskbeatsraskovisch
+package com.example.taskbeatsraskovisch.presentation
 
 import android.app.Activity
 import android.os.Bundle
@@ -6,7 +6,6 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
-import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.ActivityResult
@@ -16,11 +15,13 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
+import com.example.taskbeatsraskovisch.R
+import com.example.taskbeatsraskovisch.data.AppDataBase
+import com.example.taskbeatsraskovisch.data.Task
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
-import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import java.io.Serializable
 

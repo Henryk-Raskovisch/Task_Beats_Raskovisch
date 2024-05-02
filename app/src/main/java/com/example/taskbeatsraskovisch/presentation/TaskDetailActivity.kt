@@ -1,4 +1,4 @@
-package com.example.taskbeatsraskovisch
+package com.example.taskbeatsraskovisch.presentation
 
 import android.app.Activity
 import android.content.Context
@@ -10,11 +10,12 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.taskbeatsraskovisch.R
+import com.example.taskbeatsraskovisch.data.Task
 import com.google.android.material.snackbar.Snackbar
 
 class TaskDetailActivity : AppCompatActivity() {
