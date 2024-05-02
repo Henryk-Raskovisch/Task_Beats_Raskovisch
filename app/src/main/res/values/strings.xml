@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task Beats Official</string>
+    <string name="delete_all">Delete All</string>
+    <string name="add_a_task">Add a Task</string>
+    <string name="add_a_name_for_your_task">Add a name for your task</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Task description</string>
+    <string name="add_a_description_for_your_task">Add a description for your task</string>
+    <string name="complete">Complete</string>
+    <string name="delete">Delete</string>
+</resources>
